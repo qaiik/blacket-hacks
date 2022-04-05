@@ -10,3 +10,5 @@ join my discord [here](https://discord.gg/xxBtqPHSjW)
 1. Open the console (CTRL + SHIFT + J)<br>
 2. Paste them in (CTRL + V)<br>
 3. Press enter
+
+# blacket is life its me helpp
