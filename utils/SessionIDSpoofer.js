@@ -1,3 +1,2 @@
-let cookie = prompt('Enter the PHP session ID.');
-document.cookie = `PHPSESSID=${cookie}`;
-alert(`Your PHP session ID has been set to ${cookie}!`);
+let cookie = prompt('Emter the Session ID\n\nExample: PHPSESSID=fgb645j7fkjjvgkfuk65ofdf');
+document.cookie = `${cookie};path=/`;
