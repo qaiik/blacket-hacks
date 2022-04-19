@@ -1,6 +1,6 @@
 # blacket-hack
 hacks for blacket, coded by [zastix](https://github.com/ZasticBradyn)<br>
-mostly open-source<br>
+prouldy 100% open-source<br>
 join my discord [here](https://discord.gg/xxBtqPHSjW)
 #### Remeber to open a [issue](https://github.com/ZasticBradyn/blacket-hacks/issues) if somthing doesnt work!
 # Announments
