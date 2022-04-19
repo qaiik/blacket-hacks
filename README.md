@@ -3,9 +3,9 @@ hacks for blacket, coded by [zastix](https://github.com/ZasticBradyn)<br>
 join my discord [here](https://discord.gg/xxBtqPHSjW)
 #### Remeber to open a [issue](https://github.com/ZasticBradyn/blacket-hacks/issues) if somthing doesnt work!
 # Announments
+- Scripts with "[BETA]" in their name are for beta-blax
 - So currently Blax/Blacket is down but, there is a test server up for selected testers,<br>So im going to be making hacks for the test server
 - Im going to be obfusocating all my code for now on, this is because blax is switching to socket.io and ive seen people steal my code before.<br>So this is to prevent that, Please understand
-- Scripts with "[BETA]" in their name are for beta-blax
 # blacket socials:
 [site](https://beta.blacket.org/)<br>
 [discord](https://discord.gg/XrVMbR5tJd)<br>
