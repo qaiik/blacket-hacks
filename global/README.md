@@ -1,7 +1,5 @@
-<!--
-# GUI.js
-### a alert() based GUI for blacket (incase copying a bunch of scripts is to annoying for you.)
--->
+# ApearOffline.js [BETA]
+### Appear offline always, even when online.
 # SpoofBlooks.js
 ### Sets the client-sided quanity of all blooks to 99
 # SpamOpenBoxes.js
