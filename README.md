@@ -6,7 +6,6 @@ join my discord [here](https://discord.gg/xxBtqPHSjW)
 # Announments
 - Scripts with "[BETA]" in their name are for beta-blax
 - So currently Blax/Blacket is down but, there is a test server up for selected testers,<br>So im going to be making hacks for the test server
-- Im going to be obfusocating all my code for now on, this is because blax is switching to socket.io and ive seen people steal my code before.<br>So this is to prevent that, Please understand
 # blacket socials:
 [site](https://www.youtube.com/watch?v=dQw4w9WgXcQ)<br>
 [discord](https://discord.gg/XrVMbR5tJd)<br>
