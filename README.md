@@ -1,4 +1,4 @@
-# blacket-hack
+# blacket-hacks
 hacks for blacket, coded by [zastix](https://github.com/ZasticBradyn)<br>
 proudly 100% open-source<br>
 join my discord [here](https://discord.gg/xxBtqPHSjW)
