@@ -6,8 +6,7 @@ amt = Number(prompt("How many boxes would you like to open."));
 function buyBox() {
     var postData = 'crate=' + name;
     $.post('/api/open/', postData, function(data) {
-        blookRarity = window.elementList[data].rarity
-        console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px black;', `${window.elementList[data]});
+        console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px black;', `${data}`);
         if (data === "You're being rate limited.") {
             i--;
         }
