@@ -1,18 +1,12 @@
-let name = prompt("Which box would you like to open (Example: Color)");
-let amt = null;
+let name = prompt("Which box would you like to open?\n\nList:\nall\nadd");
+let amt;
 let i = 1;
-if (confirm("Would you like to select the amount of boxes?\nOk - Yes\nCancel - No")) {
-    amt = Number(prompt("How many boxes would you like to open."));
-} else {
-    amt = 99999999999999999999999;
-}
+amt = Number(prompt("How many boxes would you like to open."));
 
 function buyBox() {
-    var postData = 'box=' + name;
-    $.post('/worker/box/openbox.php', postData, function(data) {
-        dataSplit = data.split('|')
-        window.blookRarity = dataSplit[1];
-        window.blookUnlocked = dataSplit[0];
+    var postData = 'crate=' + name;
+    $.post('/api/open/', postData, function(data) {
+        blookRarity = window.elementList[data].rarity
         if (blookRarity === "Uncommon") {
             console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px lime;', `${blookUnlocked}`);
         } else if (blookRarity === "Rare") {
@@ -43,4 +37,4 @@ var check = setInterval(() => {
         clearInterval(check);
         alert("Dony buying boxes");
     }
-}, 751);
+}, 1001);
