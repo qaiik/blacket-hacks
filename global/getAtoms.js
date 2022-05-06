@@ -1,4 +1,4 @@
-alert('Started adding tokens!')
+alert('Started adding Atoms!')
 
 function updateAtoms() {
     $.get('/api/user', function(data) {
