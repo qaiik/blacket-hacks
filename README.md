@@ -7,7 +7,7 @@ join my discord [here](https://discord.gg/xxBtqPHSjW)
 - Scripts with "[BETA]" in their name are for the new Blax.
 - Blax was just released!
 # Blax socials:
-[site](https://xotic.org)<br>
+[site](http://xotic.org)<br>
 [discord](https://discord.gg/XrVMbR5tJd)<br>
 [github](https://github.com/XOTlC/Blacket)
 # How to use
