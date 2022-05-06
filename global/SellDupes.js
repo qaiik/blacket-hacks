@@ -1,20 +1,12 @@
-async function sell(blook) {
-    $.get(`/worker/blook/getuserblook.php?blook=${blook}`, function(data) {
-        var amt = Number(data)-1
-        if (0 >= amt) {
-            return;
-        }
-        var postData = 'blook=' + blook + '&amount=' + amt;
-        $.post('/worker/blook/sellblook.php', postData, function(data){
-            console.log("sold " + amt + blook)
-        });
-    });
+async function sell(element) {
+	let amt = userElements[element] - 1
+	if (0 >= amt) return;
+	var postData = `element=${element}&quantity=${amt}`;
+	$.post(`/api/sell/`, postData, function() {
+		console.log(`Sold ${amt} ${element}(s)`)
+	})
 }
 
-for (let i = 1; i <= window.maxID; i++) {
-    $.get(`/worker/misc/getblook.php?id=${i}`, function(data) {
-        var myArray = data.split("|");
-        var word = myArray[0];
-        sell(word)
-    });
-}
+Object.keys(elementList).forEach(element => {
+	sell(element)
+})
