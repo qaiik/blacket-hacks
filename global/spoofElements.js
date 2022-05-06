@@ -1,3 +1,6 @@
+for (i=0;i<document.getElementById('#elementList').children.length;i++) {
+    document.getElementById('#elementList').children[i].remove();
+}
 Object.entries(elementList).forEach((entry) => {
 	const [key, value] = entry;
 	$(`<img id="${key}" src="${elementList[key].imageURL}" onclick="viewElement('${key}')" class="bottomElement">`).appendTo(".elementList");
