@@ -8,5 +8,5 @@
 ### Get atoms automaticly, just like getTokens.js!
 # SpamOpenBoxes.js [BETA]
 ### Opens boxes extremly quickly.
-# sellDupes.js
+# sellDupes.js [BETA]
 ### sells all duplicate blooks
