@@ -1,7 +1,7 @@
-let name = prompt("Which box would you like to open?\n\nList:\nall\nadd");
+let name = prompt("Which crate would you like to open?\n\Options:\nall\nadd");
 let amt;
 let i = 1;
-amt = Number(prompt("How many boxes would you like to open."));
+amt = Number(prompt("How many crates would you like to open?"));
 
 function buyBox() {
     var postData = 'crate=' + name;
@@ -18,6 +18,6 @@ var check = setInterval(() => {
         i++;
     } else {
         clearInterval(check);
-        alert("Done buying boxes");
+        alert("Done buying boxes! Check the console or the Elements page.");
     }
 }, 1001);
