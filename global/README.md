@@ -6,7 +6,7 @@
 ### Spam the confetti effect on your screen.
 # getAtoms.js [BETA]
 ### Get atoms automaticly, just like getTokens.js!
-# SpamOpenBoxes.js [BETA]
+# spamOpenCrates.js [BETA]
 ### Opens boxes extremly quickly.
 # sellDupes.js [BETA]
 ### sells all duplicate blooks
