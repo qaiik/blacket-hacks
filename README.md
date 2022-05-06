@@ -1,13 +1,13 @@
 # blacket-hacks
-hacks for blacket, coded by [zastix](https://github.com/ZasticBradyn)<br>
+hacks for blacket, coded by [zastix](https://github.com/notzastix)<br>
 proudly 100% open-source<br>
 join my discord [here](https://discord.gg/xxBtqPHSjW)
-#### Remeber to open a [issue](https://github.com/ZasticBradyn/blacket-hacks/issues) if somthing doesnt work!
+#### Remeber to open a [issue](https://github.com/notzastix/blacket-hacks/issues) if somthing doesnt work!
 # Announments
-- Scripts with "[BETA]" in their name are for beta-blax
-- So currently Blax/Blacket is down but, there is a test server up for selected testers,<br>So im going to be making hacks for the test server
-# blacket socials:
-[site](https://www.youtube.com/watch?v=dQw4w9WgXcQ)<br>
+- Scripts with "[BETA]" in their name are for the new Blax.
+- Blax was just released!
+# Blax socials:
+[site](http://xotic.org)<br>
 [discord](https://discord.gg/XrVMbR5tJd)<br>
 [github](https://github.com/XOTlC/Blacket)
 # How to use
