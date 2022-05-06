@@ -1,3 +1,5 @@
+# autoDeclineTrade.js [BETA]
+### Automatcily decline trade requests (reload to stop)
 # ApearOffline.js [BETA]
 ### Appear offline always, even when online.
 # spamConfetti.js [BETA]
