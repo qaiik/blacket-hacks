@@ -1,3 +1,6 @@
+socket.on('request', () => {
+	socket.emit('decline')
+})
 class Audio {
 	constructor(e) {
 		if (e === '/audio/tradeRequest.mp3') {
