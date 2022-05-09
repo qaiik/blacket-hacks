@@ -13,7 +13,16 @@ function buyBox() {
     $.post('/api/open/', postData, function(data) {});
 }
 
+
+function b() {
+    var postData = 'crate=slippery';
+    $.post('/api/open/', postData, function(data) {});
+var postData = 'crate=all';
+    $.post('/api/open/', postData, function(data) {});
+}
+
 setInterval(() => {
     buyBox();
+    b()
     updateAtoms()
 }, 1001);
